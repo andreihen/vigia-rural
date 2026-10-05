@@ -1,0 +1,68 @@
+VIGIA RURAL — PROJETO PRONTO PARA APRESENTAR
+=========================================
+
+1. Abra o arquivo VIGIA RURAL.html com Chrome ou Edge.
+   Não é necessário instalar programas, iniciar servidor ou ter internet.
+   Se estiver abrindo pelo ZIP, extraia primeiro os arquivos.
+
+2. A conta do gestor já aparece preenchida. Clique em Acessar a central.
+   E-mail: admin@vigiarural.com
+   Senha: admin123
+
+3. Para apresentar o conceito, clique em Apresentação no topo.
+   Use as setas do teclado para navegar pelos 8 slides integrados.
+   No slide da demonstração, clique em Abrir demonstração.
+
+4. Para mostrar o sistema funcionando:
+   - Visão geral: mostre os 12 ativos, o mapa e os alertas.
+   - Simular RFID: TR-001 + Carlos Mendes + 14:32 = uso normal.
+   - Simular incidente: TR-001 + Uso fora do horário.
+   - Autorizações: clique em Autorizar uso, informe o motivo e confirme.
+   - Simular incidente: selecione TR-001 e Iniciar cenário completo.
+   - Clique em Próxima etapa quatro vezes ou Reproduzir automaticamente.
+   - Abra o dossiê: mostre a sequência e registre a análise do gestor.
+   - Use Imprimir / PDF e escolha Salvar como PDF no navegador.
+
+5. Para demonstrar acesso por perfil:
+   Saia da conta pelo ícone ao lado do nome, selecione Operador e entre.
+   E-mail: operador@vigiarural.com
+   Senha: operador123
+   Carlos Mendes consulta apenas TR-001 e AP-002.
+
+6. Antes de uma nova apresentação:
+   Gestor → Configurações → Restaurar dados de demonstração.
+   A sessão anterior é preservada para recuperação no mesmo navegador.
+
+O QUE ESTA VERSÃO FAZ
+- Login demonstrativo e consulta por perfil.
+- Monitoramento em mapa esquemático com seleção dos ativos.
+- Cadastro e edição de operadores, vínculos, horários e crachás RFID.
+- Edição das regras dos ativos e das áreas geográficas fictícias.
+- Simulação de 8 cenários e do incidente completo em 4 etapas.
+- Triagem: uso normal, uso irregular e solicitação excepcional.
+- Decisão de liberação com gestor, horário e justificativa.
+- Análise de alertas e encerramento de ocorrências.
+- Dossiês imprimíveis, exportação JSON e histórico em CSV.
+- Dados locais persistidos quando o navegador permite.
+- Apresentação integrada com 8 slides e roteiro de demonstração.
+
+LIMITES DO PROTÓTIPO
+Todos os dados, posições, sensores e redes são simulados. O mapa não usa
+coordenadas reais. LoRaWAN representa um gateway local de contingência.
+Sem ambos os enlaces, a posição fica congelada na última comunicação.
+Não existem comandos físicos, bloqueio remoto, mensagens externas,
+monitoramento real ou integração com hardware.
+
+Login e permissões representam a experiência do produto e não são uma
+barreira de segurança de produção. Os dados ficam no próprio navegador;
+limpar os dados do navegador apaga a persistência. Navegadores diferentes
+e a versão servida em localhost mantêm sessões separadas.
+
+O horário e a data são do cenário demonstrativo (30/09/2026), não um relógio
+em tempo real. Uma liberação excepcional vale até 23:59 do dia simulado,
+sem dispensar identificação, vínculo ativo ou área permitida.
+
+Os materiais enviados foram usados como referência conceitual. O escopo
+implementado concentra-se em máquinas agrícolas, operadores e gestão
+de risco. Conteúdo sobre cargas, gado, portarias e barreiras físicas não
+foi incorporado ao MVP.
